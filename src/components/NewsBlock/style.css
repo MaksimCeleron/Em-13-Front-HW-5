@@ -1,0 +1,23 @@
+.news {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  font-weight: 400;
+  gap: 15px;
+}
+
+.news.important {
+  font-weight: 700;
+  background-color: rgba(255, 127, 127, 0.2);
+}
+
+.news a {
+  text-decorations: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.time {
+  width: 120px;
+  color: #ff7f7f;
+}
